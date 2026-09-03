@@ -39,7 +39,7 @@ For Software:
 ### Implementation
 # Installation
 [ ```bash
-git clone [https://github.com/your-username/WhyClick.git](https://github.com/your-username/WhyClick.git)
+git clone [https://github.com/jannajaleel31/useless_project.git](https://github.com/jannajaleel31/useless_project.git)
 
 cd WhyClick]
 
