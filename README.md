@@ -55,14 +55,17 @@ python -m http.server 8000
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+1.<img width="1377" height="995" alt="Screenshot 2026-09-03 223028" src="https://github.com/user-attachments/assets/39f28645-f870-419b-8be0-381f3a518c05" />
+ This is the initial screen after just uploading a video
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+2.<img width="1376" height="995" alt="Screenshot 2026-09-03 221846" src="https://github.com/user-attachments/assets/ff5978cd-b60d-4086-a93a-38fd0e4abaeb" />
+ When we wave our hand on the right side of webcam, the video skips forward. It also adds a little sparkle when we skip.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+3.<img width="1376" height="993" alt="Screenshot 2026-09-03 221924" src="https://github.com/user-attachments/assets/80eecd8f-653e-4b23-913e-a79a1e02c80a" />
+ This when we wave our hands on the left of webcam. It rewinds the video by 10 sec and also adds a little sparkles.
+
+4.<img width="1375" height="981" alt="Screenshot 2026-09-03 222023" src="https://github.com/user-attachments/assets/38f77ca5-b02f-4404-ad87-7e48c21777f3" />
+ This what happen when we command. for eg here I command max and the volume becomes maximum. It also show a pop-up message.
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
