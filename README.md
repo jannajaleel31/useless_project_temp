@@ -80,36 +80,6 @@ For Software:
 <img width="3780" height="1890" alt="Your paragraph text" src="https://github.com/user-attachments/assets/1f079b19-99be-406c-bab3-3a4fe2a78f16" />
 The system captures video and mic inputs directly in the browser, using temporal pixel differencing across screen zones to translate hand waves into forward and rewind actions. Simultaneously, the Web Speech API parses voice commands to adjust volume levels. Both pipelines operate locally in real time to control HTML5 video playback without external servers.
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
