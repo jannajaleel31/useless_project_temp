@@ -2,11 +2,11 @@
 
 
 
-# WhyUseHands!🎯
+# WhyClick!🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: DUOS
 
 
 ### Team Members
@@ -15,25 +15,31 @@
   
 
 ### Project Description
-A completely hands-free media player designed for peak laziness. Instead of touching a mouse or keyboard, users hum to skip forward, clap their hands to rewind, and yell voice commands to manage the volume. It also includes an "Audio-Only" cloak mode when you just want to listen without the screen distracting you.
+A completely hands-free media player designed for peak laziness. Instead of touching a mouse or keyboard, users clap to skip forward, wave their hands to rewind, and yell voice commands to manage the volume. It also includes an "Audio-Only" cloak mode when you just want to listen without the screen distracting you.
 
 ### The Problem (that doesn't exist)
 Reaching across the desk to touch a keyboard or mouse while binge-watching videos causes unacceptable wrist fatigue, disrupts snacking efficiency, and demands far too much physical exertion from modern couch potatoes.
 
 ### The Solution (that nobody asked for)
-We turned the user into a human remote control. By capturing audio frequencies and percussive transients through the laptop microphone, you can now hum at specific pitches to skip boring scenes, slap your hands together to re-watch a clip, and verbally order the player to adjust the volume.
+We turned the user into a human remote control. By capturing audio frequencies and percussive transients through the laptop microphone, you can now clap to skip boring scenes, wave your hands to re-watch a clip, and verbally order the player to adjust the volume.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
--HTML5 & CSS3: Responsive UI with custom retro-futuristic dark mode theme, dynamic skip indicators, and telemetry HUD.
-- Web Audio API: Real-time microphone audio processing, Fast Fourier Transform (FFT) analysis, bandpass filtering, and custom autocorrelation algorithms for    fundamental frequency (pitch) detection and percussive transient (clap) detection.
-- Web Speech API: In-browser SpeechRecognition engine for continuous, hands-free voice command interpretation ("louder", "quieter", "mute", "max").
-- Vanilla JavaScript: Event loop orchestration, DOM state transitions, Blob URL video object binding, and debounced control logic.
+.
 
 
 ### Implementation
 For Software:
+- HTML5, CSS3, JavaScript (ES6+)
+- None (Vanilla JavaScript architecture)
+- Web Audio API, Web Speech API (`SpeechRecognition`), MediaDevices API (`getUserMedia`), HTML5 Canvas API
+- Visual Studio Code, Live Server Extension, Git, GitHub Pages, Google Chrome Developer Tools
+For Hardware:
+- Laptop / PC with integrated or external webcam (minimum 240p @ 30 FPS for motion differencing)
+- Built-in or external condenser microphone (for transient acoustic clap and voice recognition)
+
+  
 # Installation
 [commands]
 
