@@ -38,11 +38,7 @@ For Software:
 
 ### Implementation
 # Installation
-No complex dependencies or package installations are required. Clone the repository and run it directly in any modern Chromium-based browser (Chrome, Edge, Brave).
 
-```bash
-git clone [https://github.com/your-username/WhyClick.git](https://github.com/your-username/WhyClick.git)
-cd WhyClick
 
 # Run
 Open index.html using a local server (recommended for browser media permissions) or directly in your browser:
