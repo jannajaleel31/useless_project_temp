@@ -65,7 +65,16 @@ For Software:
  This when we wave our hands on the left of webcam. It rewinds the video by 10 sec and also adds a little sparkles.
 
 4.<img width="1375" height="981" alt="Screenshot 2026-09-03 222023" src="https://github.com/user-attachments/assets/38f77ca5-b02f-4404-ad87-7e48c21777f3" />
- This what happen when we command. for eg here I command max and the volume becomes maximum. It also show a pop-up message.
+ This what happen when we command. for eg here I command max and the volume becomes maximum. It also show a pop-up message.you can also use words that is similar to pronunciation of these words and also words that with the same meaning. For eg, To command max , you can also use maximum or full etc.
+
+5.<img width="1376" height="995" alt="Screenshot 2026-09-03 223720" src="https://github.com/user-attachments/assets/116644d8-cbfa-4707-b0a6-740fbde435a0" />
+ when we say quit or down, the volume goes down and it shows a pop-up
+
+6.<img width="1376" height="935" alt="Screenshot 2026-09-03 223823" src="https://github.com/user-attachments/assets/fc65251c-26e1-48e3-aa79-d953f41484f5" />
+ when we say louder or fly or something similar, The volume goes up
+
+7.<img width="1377" height="995" alt="Screenshot 2026-09-03 223733" src="https://github.com/user-attachments/assets/7bf976b7-23ad-4230-bbdf-6422689f3f5b" />
+ When we say mute or silence, The video goes mute.
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
