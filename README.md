@@ -41,11 +41,7 @@ For Software:
 
 
 # Run
-Open index.html using a local server (recommended for browser media permissions) or directly in your browser:
-Using VS Code Live Server:
-Right-click index.html and select "Open with Live Server".
-Alternatively, via Python local HTTP server:
- python -m http.server 8000
+
 
 ### Project Documentation
 For Software:
