@@ -40,17 +40,14 @@ For Software:
 # Installation
 [ ```bash
 git clone [https://github.com/your-username/WhyClick.git](https://github.com/your-username/WhyClick.git)
+
 cd WhyClick]
 
 # Run
 Open index.html using a local server (recommended for browser media permissions) or directly in your browser:
-
 Using VS Code Live Server:
-
 Right-click index.html and select "Open with Live Server".
-
 Alternatively, via Python local HTTP server:
-
 Bash
 python -m http.server 8000
 
