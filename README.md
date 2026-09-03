@@ -15,36 +15,41 @@
   
 
 ### Project Description
-A completely hands-free media player designed for peak laziness. Instead of touching a mouse or keyboard, users clap to skip forward, wave their hands to rewind, and yell voice commands to manage the volume. It also includes an "Audio-Only" cloak mode when you just want to listen without the screen distracting you.
+A completely hands-free media player designed for peak laziness. Instead of touching a mouse or keyboard,  wave their hands to rewind and forward, and yell voice commands to manage the volume. It also includes an "Audio-Only" cloak mode when you just want to listen without the screen distracting you.
 
 ### The Problem (that doesn't exist)
 Reaching across the desk to touch a keyboard or mouse while binge-watching videos causes unacceptable wrist fatigue, disrupts snacking efficiency, and demands far too much physical exertion from modern couch potatoes.
 
 ### The Solution (that nobody asked for)
-We turned the user into a human remote control. By capturing audio frequencies and percussive transients through the laptop microphone, you can now clap to skip boring scenes, wave your hands to re-watch a clip, and verbally order the player to adjust the volume.
+We turned the user into a human remote control. By capturing audio frequencies and percussive transients through the laptop microphone, you can now wave your hands to the right of cam to skip forward, wave your hands to left of cam to re-watch a clip, and verbally order the player to adjust the volume.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-.
+- **HTML5 & CSS3:** Semantic layout, custom UI components, responsive layout, CSS grid/flexbox, backdrop filters, and CSS keyframe animations (screen-shake and pulse effects).
+- **Vanilla JavaScript (ES6+):** Core application architecture, DOM manipulation, state management, and real-time event handling with zero external runtime dependencies.
+- **HTML5 Canvas API:** - Offscreen 64×48 canvas downsampling for fast pixel-difference extraction.
+  - Transparent particle rendering overlay generating 60 FPS real-time motion trails ("Jedi Sparks").
+- **MediaStreams API (`navigator.mediaDevices.getUserMedia`):** Captures raw video and high-sensitivity, uncompressed room audio streams from the user's webcam and microphone.
+- **Computer Vision (Pixel Differencing & Spatial Masking):** Custom temporal frame-differencing algorithm calculating pixel brightness deltas across partitioned horizontal split-zones (Left Zone vs. Right Zone) for touchless gesture tracking.
+- **Web Speech API (`SpeechRecognition` / `webkitSpeechRecognition`):** Low-latency voice engine featuring continuous listening, phonetic regex tokenization, alias matching, and a 1.2-second debounce mechanism to eliminate double-firing.
+- **HTML5 Media Elements (`<video>` API) & Blob URLs:** Video playback control, volume scaling, dynamic scrubbing, and local file handling via `URL.createObjectURL` and memory management (`URL.revokeObjectURL`).
 
 
 ### Implementation
-For Software:
-- HTML5, CSS3, JavaScript (ES6+)
-- None (Vanilla JavaScript architecture)
-- Web Audio API, Web Speech API (`SpeechRecognition`), MediaDevices API (`getUserMedia`), HTML5 Canvas API
-- Visual Studio Code, Live Server Extension, Git, GitHub Pages, Google Chrome Developer Tools
-For Hardware:
-- Laptop / PC with integrated or external webcam (minimum 240p @ 30 FPS for motion differencing)
-- Built-in or external condenser microphone (for transient acoustic clap and voice recognition)
-
-  
 # Installation
-[commands]
+No complex dependencies or package installations are required. Clone the repository and run it directly in any modern Chromium-based browser (Chrome, Edge, Brave).
+
+```bash
+git clone [https://github.com/your-username/WhyClick.git](https://github.com/your-username/WhyClick.git)
+cd WhyClick
 
 # Run
-[commands]
+Open index.html using a local server (recommended for browser media permissions) or directly in your browser:
+Using VS Code Live Server:
+Right-click index.html and select "Open with Live Server".
+Alternatively, via Python local HTTP server:
+ python -m http.server 8000
 
 ### Project Documentation
 For Software:
